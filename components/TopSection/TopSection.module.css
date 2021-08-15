@@ -1,0 +1,67 @@
+.bluetext {
+  color: #7891e9;
+}
+
+.topSection {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.topSection div {
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 98.6%;
+  vertical-align: middle;
+  margin: auto;
+  /* or 109px */
+  letter-spacing: -0.07em;
+}
+
+.heading span {
+  display: inline-block;
+}
+
+.btnPrimary {
+  width: 20rem;
+  padding: 1.5rem 3rem;
+  background-color: #4259a9;
+  font-size: 1.4rem;
+  color: white;
+  border: none;
+  border-radius: 4rem;
+  filter: drop-shadow(1px 1px 9px rgba(0, 0, 0, 0.2));
+}
+
+.marginTop {
+  margin-top: 3rem;
+}
+
+.holder {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: start;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 554px) {
+  .sectionImg {
+    display: none;
+  }
+  .heading {
+    font-size: 4.5rem;
+    line-height: 130%;
+  }
+}
+/*# sourceMappingURL=TopSection.module.css.map */

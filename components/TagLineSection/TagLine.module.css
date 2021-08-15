@@ -1,0 +1,25 @@
+.tagline {
+  margin: 10rem 0;
+}
+
+.tagline h2 {
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.8rem;
+  color: #3e3e3e;
+}
+
+.tagline h2 span {
+  display: block;
+}
+
+@media only screen and (max-width: 554px) {
+  .tagline {
+    margin: 8rem 0;
+  }
+  .tagline h2 {
+    font-size: 1.8rem;
+  }
+}
+/*# sourceMappingURL=TagLine.module.css.map */

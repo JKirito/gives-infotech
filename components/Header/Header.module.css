@@ -1,0 +1,57 @@
+.navBar {
+  display: flex;
+  font-size: 2.4rem;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.navBar .linksection {
+  margin-left: auto;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+
+.navBar .linksection .navlinks {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5rem;
+}
+
+.navBar .linksection .navlinks li {
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+
+.navBar .linksection .hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBar .linksection .hamburger .hamwrapper {
+  display: flex;
+  flex-direction: column;
+  width: 3.5rem;
+  height: 2.5rem;
+  justify-content: space-evenly;
+}
+
+.navBar .linksection .hamburger .hamwrapper span {
+  display: inline-block;
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 4rem;
+  background-color: black;
+}
+
+@media only screen and (max-width: 554px) {
+  .linksection .navlinks {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=Header.module.css.map */

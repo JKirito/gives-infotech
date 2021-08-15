@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAC;EACpB,KAAK,EAAE,OAAO;CAUf;;AAXD,AAEE,qBAFmB,CAEnB,QAAQ,CAAC;EACP,SAAS,EAAE,MAAM;CAOlB;;AAVH,AAII,qBAJiB,CAEnB,QAAQ,CAEN,EAAE,CAAC;EACD,WAAW,EAAE,MAAM;CAIpB;;AATL,AAMM,qBANe,CAEnB,QAAQ,CAEN,EAAE,CAEA,IAAI,CAAC;EACH,OAAO,EAAE,KAAK;CACf;;AAKP,AAAA,QAAQ,CAAC;EACP,KAAK,EAAE,OAAO;EACd,uBAAuB,EAAE,WAAW;EACpC,yBAAyB,EAAE,MAAM;CAClC",
+    "sources": [
+        "ProjectListContainer.module.scss"
+    ],
+    "names": [],
+    "file": "ProjectListContainer.module.css"
+}
