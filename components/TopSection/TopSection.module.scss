@@ -4,8 +4,7 @@
 .topSection {
   margin-top: 10rem;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
 
   div {
     width: 100%;
@@ -13,49 +12,129 @@
 }
 .wrapper {
   display: flex;
-  justify-content: center;
+  width: 100%;
 }
 .heading {
-  font-size: 5rem;
+  // font-size: 5.4rem;
   font-style: normal;
   font-weight: normal;
-  //   font-size: 111px;
+  // max-width: 50rem;
+
   line-height: 98.6%;
   vertical-align: middle;
-  margin: auto;
+  margin: 0;
+  justify-self: start;
   /* or 109px */
 
   letter-spacing: -0.07em;
   span {
     display: inline-block;
   }
+  & > span {
+    width: 100%;
+  }
 }
 .btnPrimary {
-  width: 20rem;
-  padding: 1.5rem 3rem;
+  // width: 20rem;
+  padding: 1.5rem 5rem;
   background-color: #4259a9;
   font-size: 1.4rem;
   color: white;
   border: none;
   border-radius: 4rem;
-  filter: drop-shadow(1px 1px 9px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.4));
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    cursor: hand;
+    transform: translateY(-4px);
+    filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.2));
+  }
 }
 .marginTop {
   margin-top: 3rem;
 }
-.holder {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: start;
-  flex-direction: column;
+
+.sectionImg {
+  max-width: 400px;
 }
 
-@media only screen and (max-width: 554px) {
+// Media Queries
+
+// max-width: 320px
+@media only screen and (max-width: 319px) {
   .sectionImg {
     display: none;
   }
   .heading {
-    font-size: 4.5rem;
-    line-height: 130%;
+    font-size: 4.1rem;
   }
 }
+
+// 480px
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .heading {
+    font-size: 4.1rem;
+  }
+  .sectionImg {
+    display: none;
+  }
+}
+
+// 760px
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .heading {
+    font-size: clamp(3rem, 5vw, 4rem);
+  }
+  .btnPrimary {
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+  }
+}
+
+// 1024px
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .heading {
+    font-size: clamp(4rem, 5vw, 6rem);
+  }
+}
+
+// 1200px
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .heading {
+    font-size: clamp(4rem, 5vw, 6rem);
+  }
+}
+
+// 1201 - up
+@media only screen and (min-width: 1201px) {
+  .heading {
+    font-size: clamp(6rem, 5vw, 7rem);
+  }
+}
+
+// Media Queries
+
+// max-width: 320px
+// @media only screen and (max-width: 319px) {
+// }
+
+// // 480px
+// @media only screen and (min-width: 320px) and (max-width: 480px) {
+// }
+
+// // 760px
+// @media only screen and (min-width: 481px) and (max-width: 768px) {
+// }
+
+// // 1024px
+// @media only screen and (min-width: 769px) and (max-width: 1024px) {
+// }
+
+// // 1200px
+// @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+// }
+
+// // 1201 - up
+// @media only screen and (min-width: 1201px) {
+// }

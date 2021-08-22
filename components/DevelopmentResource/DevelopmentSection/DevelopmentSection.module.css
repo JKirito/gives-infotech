@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=DevelopmentSection.module.css.map */
+.developmentSection h2 {
+  font-size: 3rem;
+  margin: 4rem 0;
+}
+
+.subheading p {
+  font-size: 1.9rem;
+  max-width: 55rem;
+}
+/*# sourceMappingURL=DevelopmentSection.module.css.map */

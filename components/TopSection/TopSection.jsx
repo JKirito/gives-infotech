@@ -19,7 +19,7 @@ const TopSection = () => {
                         <span>so you can exceed</span>
                     </h1>
                 </div>
-                <button className={`${classes.btnPrimary} ${classes.marginTop}`}>Start Project</button>
+                <button className={`${classes.btnPrimary} ${classes.marginTop} `}>Start Project</button>
             </div>
             <div className={classes.sectionImg}>
                 <Image src={ComputerImage} layout='responsive' alt='Computer'></Image>
