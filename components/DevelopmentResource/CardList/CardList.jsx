@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../Card/Card';
-import Link from 'next/Link'
+import Link from 'next/link'
 
 import classes from './CardList.module.css'
 
